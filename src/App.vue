@@ -1,10 +1,13 @@
 <template>
-  <div>hello yuuki</div>
+  <div>
+    <div id="app">
+      <router-view/>
+    </div>
+  </div>
+
 </template>
 
 <script setup>
-  import {RouterLink, RouterView} from 'vue-router'
-
 </script>
 
 <style>

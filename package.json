@@ -2,11 +2,12 @@
   "name": "yuukiui",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 8080",
     "build": "vite build",
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "element-plus": "^2.1.11",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
